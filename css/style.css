@@ -1,0 +1,42 @@
+@charset "UFT-8";
+
+@font-face {
+    font-family: 'Titulo';
+    src: url('../fonts/PassionOne-Regular.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Texto';
+    src: url('../fonts/Sriracha-Regular.ttf') format('truetype');
+    font-weight: normal;
+}
+
+:root {
+    --fonte-titulo: 'Titulo', cursive;
+    --fonte-texto: 'Texto', cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: black;
+    padding: 30px;
+}
+
+header h1 {
+    font-family: var(--fonte-titulo);
+    padding: 10px;
+    font-size: 8.3em;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+}
+
+header p {
+    text-align: center;
+    color: white;
+}
