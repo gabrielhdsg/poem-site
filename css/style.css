@@ -20,11 +20,18 @@
 * {
     margin: 0px;
     padding: 0px;
+}  
+
+body, html {
+    min-height: 100vh;
 }
+
+
 
 header {
     background-color: black;
     padding: 30px;
+    text-align: center;
 }
 
 header h1 {
@@ -33,10 +40,64 @@ header h1 {
     font-size: 8.3em;
     font-weight: 400;
     color: white;
-    text-align: center;
+    font-variant: small-caps;
 }
 
 header p {
-    text-align: center;
+    font-family: Arial, Helvetica, sans-serif; 
     color: white;
 }
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+section p {
+    font-family: var(--fonte-texto);
+    padding: 80px 20px;
+    font-size: 3.7em;
+    font-weight: 100;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.simples{
+    background-color: white;
+}
+
+.imagem {
+    background-attachment:fixed;
+    background-size: cover;
+    color: white;
+}
+
+.imagem p {
+    background-color: rgba(2, 2, 2, 0.358);
+    width: 700px;
+}
+
+#img001 {
+    background-image: url('../img/background001.jpg');
+}
+
+#img002 {
+    background-image: url('../img/background002.jpg');
+}
+
+
